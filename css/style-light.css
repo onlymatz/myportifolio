@@ -1,0 +1,237 @@
+.back-main-light {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    background-size: cover;
+    margin: 0;
+    background-color: #b781e4;
+    transition: 1s ease;
+}
+
+.inicio-light {
+  margin: 0;
+  display: flex;
+  position: relative;
+  transition: 1s ease;
+}
+
+.text-home {
+  color: white;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  font-size: 180%;
+}
+
+.inicio-light img {
+  border-radius: 50%;
+  margin: 4%;
+  margin-left: 17%;
+  width: 20%;
+  z-index: 2;
+}
+
+.inicio-light::before {
+	animation: anim 30s infinite;
+	background: radial-gradient(circle at 0% 0%, rgb(210, 255, 105), rgb(205, 155, 90));
+	border-radius: 30% 70% 53% 47% / 26% 46% 54% 74%;
+	box-shadow: 0 -2vmin 4vmin LightPink inset, 0 1vmin 4vmin MediumPurple inset,
+		0 -2vmin 7vmin purple inset;
+	content: "";
+	filter: drop-shadow(0 0 3vmin Thistle) drop-shadow(0 5vmin 4vmin Orchid)
+		drop-shadow(2vmin -2vmin 15vmin MediumSlateBlue)
+		drop-shadow(0 0 7vmin MediumOrchid);
+	height: 50vmin;
+	position: absolute;
+	width: 50vmin;
+    margin: 1%;
+  	margin-left: 15%;
+  	z-index: 1;
+  	transition: 1s ease;
+}
+
+@keyframes anim {
+	0%,
+	100% {
+		border-radius: 30% 70% 70% 30% / 30% 52% 48% 70%;
+		box-shadow: 0 -2vmin 4vmin LightPink inset, 0 -4vmin 4vmin MediumPurple inset,
+			0 -2vmin 7vmin purple inset;
+	}
+
+	10% {
+		border-radius: 50% 50% 20% 80% / 25% 80% 20% 75%;
+	}
+
+	20% {
+		border-radius: 67% 33% 47% 53% / 37% 20% 80% 63%;
+	}
+
+	30% {
+		border-radius: 39% 61% 47% 53% / 37% 40% 60% 63%;
+		box-shadow: 0 -4vmin 8vmin hotpink inset, -1vmin -2vmin 6vmin LightPink inset,
+			-1vmin -2vmin 4vmin MediumPurple inset, 1vmin 4vmin 8vmin purple inset;
+	}
+
+	40% {
+		border-radius: 39% 61% 82% 18% / 74% 40% 60% 26%;
+	}
+
+	50% {
+		border-radius: 100%;
+		box-shadow: 0 4vmin 16vmin hotpink inset, 0 2vmin 5vmin LightPink inset, 0 4vmin 4vmin MediumPurple inset,
+			0 6vmin 8vmin purple inset;
+	}
+
+	60% {
+		border-radius: 50% 50% 53% 47% / 72% 69% 31% 28%;
+	}
+
+	70% {
+		border-radius: 50% 50% 53% 47% / 26% 22% 78% 74%;
+		box-shadow: 1vmin 1vmin 8vmin LightPink inset,
+			2vmin -1vmin 4vmin MediumPurple inset, -1vmin -1vmin 16vmin purple inset;
+	}
+
+	80% {
+		border-radius: 50% 50% 53% 47% / 26% 69% 31% 74%;
+	}
+
+	90% {
+		border-radius: 20% 80% 20% 80% / 20% 80% 20% 80%;
+	}
+}
+
+.about-me-light {
+  justify-content: center;
+  background-color: white;
+  padding: 2% 0;
+  transition: 1s ease;
+}
+
+.about-me-light h2 {
+  text-align: center;
+  color: black;
+  font-size: 330%;
+  transition: 0.3s ease;
+}
+
+.about-me-light h2:hover {
+  color: var(--bg-color);
+  transition: 0.3s ease;
+}
+
+.about-me-light .container{
+  color: white;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 2%;
+  margin: 3%;
+  font-size: 140%;
+  text-wrap: wrap;
+}
+
+.about-me-light .container img {
+  width: 20%;
+}
+
+.about-me-light .container .item-1-dark {
+  background-color: #b781e4;
+  transition: 1s ease;
+  padding: 1.5% 0;
+  border-radius: 5%;
+}
+
+.about-me-light .container .item-1-dark h3 {
+  font-size: 130%;
+}
+
+.about-me-light .container .item-1-dark p {
+  margin: 4%;
+  margin-top: 10%;
+}
+
+.about-me-light .container .item-1-dark .btn {
+  background-color: black;
+  color: white;
+  font-size: 100%;
+  font-weight: 700;
+  border: solid black 1px;
+  padding: 2% 10%;
+  margin: 5% 0;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+
+.about-me-light .container .item-1-dark .btn:hover {
+  transition: 0.5s ease;
+  background-color: transparent;
+  border: solid white 1px;
+}
+
+.about-me-light .container .item-2-dark {
+  background-color: #b781e4;
+  transition: 1s ease;
+  padding: 1.5% 0;
+  border-radius: 5%;
+}
+
+.about-me-light .container .item-2-dark p {
+  margin: 4%;
+  margin-top: 10%;
+}
+
+.about-me-light .container .item-2-dark h3 {
+  font-size: 130%;
+}
+
+.about-me-light .container .item-2-dark .btn {
+  background-color: black;
+  color: white;
+  font-size: 100%;
+  font-weight: 700;
+  border: solid black 1px;
+  padding: 2% 10%;
+  margin: 5% 0;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+
+.about-me-light .container .item-2-dark .btn:hover {
+  transition: 0.5s ease;
+  background-color: transparent;
+  border: solid white 1px;
+}
+
+.about-me-light .container .item-3-dark {
+  background-color: #b781e4;
+  transition: 1s ease;
+  padding: 1.5% 0;
+  border-radius: 5%;
+}
+
+.about-me-light .container .item-3-dark p {
+  margin: 4%;
+  margin-top: 10%;
+}
+
+.about-me-light .container .item-3-dark h3 {
+  font-size: 130%;
+}
+
+.about-me-light .container .item-3-dark .btn {
+  background-color: black;
+  color: white;
+  font-size: 100%;
+  font-weight: 700;
+  border: solid black 1px;
+  padding: 2% 10%;
+  margin: 5% 0;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+
+.about-me-light .container .item-3-dark .btn:hover {
+  transition: 0.5s ease;
+  background-color: transparent;
+  border: solid white 1px;
+}

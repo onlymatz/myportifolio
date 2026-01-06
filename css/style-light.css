@@ -3,12 +3,13 @@
     font-style: normal;
     background-size: cover;
     margin: 0;
-    background-color: #b781e4;
+    background-color: #a7a0ad;
     transition: 1s ease;
 }
 
 .inicio-light {
   margin: 0;
+  margin-top: 5%;
   display: flex;
   position: relative;
   transition: 1s ease;
@@ -119,119 +120,9 @@
   transition: 0.3s ease;
 }
 
-.about-me-light .container{
-  color: white;
-  display: flex;
-  justify-content: center;
+.about-me-light h3 {
   text-align: center;
-  gap: 2%;
-  margin: 3%;
-  font-size: 140%;
-  text-wrap: wrap;
-}
-
-.about-me-light .container img {
-  width: 20%;
-}
-
-.about-me-light .container .item-1-dark {
-  background-color: #b781e4;
-  transition: 1s ease;
-  padding: 1.5% 0;
-  border-radius: 5%;
-}
-
-.about-me-light .container .item-1-dark h3 {
-  font-size: 130%;
-}
-
-.about-me-light .container .item-1-dark p {
-  margin: 4%;
-  margin-top: 10%;
-}
-
-.about-me-light .container .item-1-dark .btn {
-  background-color: black;
-  color: white;
-  font-size: 100%;
-  font-weight: 700;
-  border: solid black 1px;
-  padding: 2% 10%;
-  margin: 5% 0;
-  cursor: pointer;
-  transition: 0.5s ease;
-}
-
-.about-me-light .container .item-1-dark .btn:hover {
-  transition: 0.5s ease;
-  background-color: transparent;
-  border: solid white 1px;
-}
-
-.about-me-light .container .item-2-dark {
-  background-color: #b781e4;
-  transition: 1s ease;
-  padding: 1.5% 0;
-  border-radius: 5%;
-}
-
-.about-me-light .container .item-2-dark p {
-  margin: 4%;
-  margin-top: 10%;
-}
-
-.about-me-light .container .item-2-dark h3 {
-  font-size: 130%;
-}
-
-.about-me-light .container .item-2-dark .btn {
-  background-color: black;
-  color: white;
-  font-size: 100%;
-  font-weight: 700;
-  border: solid black 1px;
-  padding: 2% 10%;
-  margin: 5% 0;
-  cursor: pointer;
-  transition: 0.5s ease;
-}
-
-.about-me-light .container .item-2-dark .btn:hover {
-  transition: 0.5s ease;
-  background-color: transparent;
-  border: solid white 1px;
-}
-
-.about-me-light .container .item-3-dark {
-  background-color: #b781e4;
-  transition: 1s ease;
-  padding: 1.5% 0;
-  border-radius: 5%;
-}
-
-.about-me-light .container .item-3-dark p {
-  margin: 4%;
-  margin-top: 10%;
-}
-
-.about-me-light .container .item-3-dark h3 {
-  font-size: 130%;
-}
-
-.about-me-light .container .item-3-dark .btn {
-  background-color: black;
-  color: white;
-  font-size: 100%;
-  font-weight: 700;
-  border: solid black 1px;
-  padding: 2% 10%;
-  margin: 5% 0;
-  cursor: pointer;
-  transition: 0.5s ease;
-}
-
-.about-me-light .container .item-3-dark .btn:hover {
-  transition: 0.5s ease;
-  background-color: transparent;
-  border: solid white 1px;
+  color: black;
+  font-size: 200%;
+  transition: 0.3s ease;
 }

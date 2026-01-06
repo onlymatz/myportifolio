@@ -9,7 +9,7 @@
     }
 
     .inicio-light img {
-        width: 55%;
+        width: 35%;
         margin: 0;
     }
     .inicio-light::before {
@@ -19,47 +19,11 @@
     }
 
   .about-me-light h2 {
-  text-align: center;
-  color: black;
-  font-size: 350%;
-  transition: 0.3s ease;
-}
-
-.about-me-light .container img {
-  width: 20%;
-  margin-top: 4%;
-}
-
-.about-me-light .container{
-  color: white;
-  display: block;
-  justify-content: center;
-  text-align: center;
-  gap: 2%;
-  margin: 3%;
-  font-size: 200%;
-  text-wrap: wrap;
-}
-
-.about-me-light .container .item-1-dark {
-  background-image: radial-gradient(circle, #b781e4 0%, #d1b6e4 50%, #9b6bc9 100%);
-  background-size: 200% 200%;
-  animation: color 5s ease-in-out infinite;
-  transition: 1s ease;
-  padding: 1.5% 0;
-  border-radius: 5%;
-  margin: 5% 0;
-}
-
-.about-me-light .container .item-2-dark {
-  background-image: radial-gradient(circle, #b781e4 0%, #d1b6e4 50%, #9b6bc9 100%);
-  background-size: 200% 200%;
-  animation: color 5s ease-in-out infinite;
-  transition: 1s ease;
-  padding: 1.5% 0;
-  border-radius: 5%;
-  margin: 5% 0;
-}
+    text-align: center;
+    color: black;
+    font-size: 350%;
+    transition: 0.3s ease;
+  }
 }
 
 @media (max-width: 530px) {
@@ -83,47 +47,18 @@
     }
 
   .about-me-light h2 {
-  text-align: center;
-  color: black;
-  font-size: 250%;
-  transition: 0.3s ease;
-}
+    text-align: center;
+    color: black;
+    font-size: 250%;
+    transition: 0.3s ease;
+  } 
 
-.about-me-light .container img {
-  width: 30%;
-  margin-top: 4%;
-}
-
-.about-me-light .container{
-  color: white;
-  display: block;
-  justify-content: center;
-  text-align: center;
-  gap: 2%;
-  margin: 3%;
-  font-size: 140%;
-  text-wrap: wrap;
-}
-
-.about-me-light .container .item-1-light {
-  background-image: radial-gradient(circle, #b781e4 0%, #d1b6e4 50%, #9b6bc9 100%);
-  background-size: 200% 200%;
-  animation: color 5s ease-in-out infinite;
-  transition: 1s ease;
-  padding: 1.5% 0;
-  border-radius: 5%;
-  margin: 5% 0;
-}
-
-.about-me-light .container .item-2-light {
-  background-image: radial-gradient(circle, #b781e4 0%, #d1b6e4 50%, #9b6bc9 100%);
-  background-size: 200% 200%;
-  animation: color 5s ease-in-out infinite;
-  transition: 1s ease;
-  padding: 1.5% 0;
-  border-radius: 5%;
-  margin: 5% 0;
-}
+  .about-me-light h3 {
+    text-align: center;
+    color: black;
+    font-size: 150%;
+    transition: 0.3s ease;
+  }
 }
 
 @media (max-width: 425px) {
@@ -147,45 +82,16 @@
     }
 
   .about-me-light h2 {
-  text-align: center;
-  color: black;
-  font-size: 250%;
-  transition: 0.3s ease;
-}
+    text-align: center;
+    color: black;
+    font-size: 250%;
+    transition: 0.3s ease;
+  }
 
-.about-me-light .container img {
-  width: 30%;
-  margin-top: 4%;
-}
-
-.about-me-light .container{
-  color: white;
-  display: block;
-  justify-content: center;
-  text-align: center;
-  gap: 2%;
-  margin: 3%;
-  font-size: 140%;
-  text-wrap: wrap;
-}
-
-.about-me-light .container .item-1-light {
-  background-image: radial-gradient(circle, #b781e4 0%, #d1b6e4 50%, #9b6bc9 100%);
-  background-size: 200% 200%;
-  animation: color 5s ease-in-out infinite;
-  transition: 1s ease;
-  padding: 1.5% 0;
-  border-radius: 5%;
-  margin: 5% 0;
-}
-
-.about-me-light .container .item-2-light {
-  background-image: radial-gradient(circle, #b781e4 0%, #d1b6e4 50%, #9b6bc9 100%);
-  background-size: 200% 200%;
-  animation: color 5s ease-in-out infinite;
-  transition: 1s ease;
-  padding: 1.5% 0;
-  border-radius: 5%;
-  margin: 5% 0;
-}
+  .about-me-light h3 {
+    text-align: center;
+    color: black;
+    font-size: 150%;
+    transition: 0.3s ease;
+  }
 }

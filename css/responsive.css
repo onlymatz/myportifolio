@@ -1,10 +1,10 @@
-@media (max-width: 1240px) {
+@media (max-width: 1280px) {
   header {
     background-color: var(--bg-color);
   }
   
   header img {
-    width: 10%;
+    width: 7%;
     margin: 2%;
   }
 
@@ -13,21 +13,21 @@
   }
 
   a{
-    font-size: 220%;
+    font-size: 140%;
   }
 
 .switch {
   position: relative;
   display: inline-block;
-  width: 70px;
-  height: 44px;
+  width: 60px;
+  height: 34px;
 }
 
 .slider:before {
   position: absolute;
   content: "";
-  height: 37px;
-  width: 37px;
+  height: 28px;
+  width: 28px;
   left: 6px;
   bottom: 4px;
   background-color: white;
@@ -83,6 +83,26 @@ input:checked + .slider:before {
   font-size: 350%;
   transition: 0.3s ease;
   }
+
+
+.experience img {
+  width: 25%;
+  margin-bottom: 2%;
+  margin-left: 5%;
+}
+
+.about-me-dark h4 {
+  font-size: 270%;
+  text-align: center;
+}
+
+.experience-text {
+  width: 90%;
+  text-align: center;
+  font-size: 120%;
+  text-align: justify;
+  margin-top: 0;
+}
 }
 
 @media (max-width: 530px) {
@@ -178,6 +198,30 @@ input:checked + .slider:before {
   font-size: 150%;
   transition: 0.3s ease;
   }
+
+.experience {
+  flex-direction: column;
+  align-items: center;
+}
+
+.experience img {
+  width: 50%;
+  margin-bottom: 2%;
+  margin-left: 0;
+}
+
+.about-me-dark h4 {
+  font-size: 150%;
+  text-align: center;
+}
+
+.experience-text {
+  width: 90%;
+  text-align: center;
+  font-size: 120%;
+  text-align: justify;
+  margin-top: 15%;
+}
 }
 
 @media (max-width: 425px) {
@@ -265,4 +309,28 @@ input:checked + .slider:before {
   font-size: 150%;
   transition: 0.3s ease;
   }
+  
+.experience {
+  flex-direction: column;
+  align-items: center;
+}
+
+.experience img {
+  width: 55%;
+  margin-bottom: 2%;
+  margin-left: 0;
+}
+
+.about-me-dark h4 {
+  font-size: 150%;
+  text-align: center;
+}
+
+.experience-text {
+  width: 90%;
+  text-align: center;
+  font-size: 120%;
+  text-align: justify;
+  margin-top: 15%;
+}
 }

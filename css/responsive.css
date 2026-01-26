@@ -240,7 +240,7 @@ input:checked + .slider:before {
   }
 
   a{
-    font-size: 120%;
+    visibility: hidden;
   }
 
 .switch {

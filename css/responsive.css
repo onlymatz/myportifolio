@@ -103,6 +103,20 @@ input:checked + .slider:before {
   text-align: justify;
   margin-top: 0;
 }
+
+.hard-skills {
+  h2 {
+    text-align: center;
+    font-size: 350%;}
+  }
+  .cardbox {
+    display: block;
+    align-items: center;
+  }
+  .card {
+    width: 30%;
+    margin: 0 auto 20px auto;
+  }
 }
 
 @media (max-width: 530px) {
@@ -112,30 +126,31 @@ input:checked + .slider:before {
   
   header img {
     width: 20%;
-    margin: 2%;
+    margin: 2% 0;
   }
 
   ul {
     margin-top: 8%;
-    gap: 2vh;
+    gap: 1vh;
   }
 
   a{
-    font-size: 120%;
+    visibility: hidden;
+    display: none;
   }
 
 .switch {
   position: relative;
   display: inline-block;
-  width: 40px;
-  height: 24px;
+  width: 48px;
+  height: 30px;
 }
 
 .slider:before {
   position: absolute;
   content: "";
-  height: 17px;
-  width: 17px;
+  height: 22px;
+  width: 22px;
   left: 4px;
   bottom: 4px;
   background-color: white;
@@ -222,6 +237,20 @@ input:checked + .slider:before {
   text-align: justify;
   margin-top: 15%;
 }
+
+.hard-skills {
+  h2 {
+    text-align: center;
+    font-size: 250%;}
+  }
+  .cardbox {
+    display: block;
+    align-items: center;
+  }
+  .card {
+    width: 80%;
+    margin: 0 auto 20px auto;
+  }
 }
 
 @media (max-width: 425px) {
@@ -239,24 +268,25 @@ input:checked + .slider:before {
     margin-left: -10%;
   }
 
-  a{
+  a {
     visibility: hidden;
+    display: none;
   }
 
 .switch {
   position: relative;
   display: inline-block;
-  width: 38px;
-  height: 20px;
+  width: 45px;
+  height: 30px;
 }
 
 .slider:before {
   position: absolute;
   content: "";
-  height: 13px;
-  width: 13px;
+  height: 20px;
+  width: 20px;
   left: 4px;
-  bottom: 4px;
+  bottom: 6px;
   background-color: white;
   -webkit-transition: .4s;
   transition: .4s;
@@ -333,4 +363,18 @@ input:checked + .slider:before {
   text-align: justify;
   margin-top: 15%;
 }
+
+.hard-skills {
+  h2 {
+    text-align: center;
+    font-size: 250%;}
+  }
+  .cardbox {
+    display: block;
+    align-items: center;
+  }
+  .card {
+    width: 80%;
+    margin: 0 auto 20px auto;
+  }
 }

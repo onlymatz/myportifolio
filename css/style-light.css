@@ -33,8 +33,7 @@
 
 .inicio-light::before {
 	animation: anim 30s infinite;
-	/*background: radial-gradient(circle at 0% 0%, rgb(210, 255, 105), rgb(205, 155, 90));*/
-	background: transparent;
+	background: radial-gradient(circle at 0% 0%, rgb(210, 255, 105), rgb(205, 155, 90));
 	border-radius: 30% 70% 53% 47% / 26% 46% 54% 74%;
 	box-shadow: 0 -2vmin 4vmin LightPink inset, 0 1vmin 4vmin MediumPurple inset,
 		0 -2vmin 7vmin purple inset;
@@ -140,4 +139,19 @@
   border: 1px solid black;
   margin-top: 0.5%;
   margin-bottom: -10px;
+}
+
+.hard-skills-light {
+  background-color: white;
+  padding: 2% 0;
+  transition: 1s ease;
+  h2 {
+	text-align: center;
+	font-size: 330%;
+	transition: 0.3s ease;
+  }
+  .card {
+	background-color: var(--main-text-color);
+	color: black;
+  }
 }

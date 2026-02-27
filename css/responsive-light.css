@@ -24,6 +24,14 @@
     font-size: 350%;
     transition: 0.3s ease;
   }
+
+  .hard-skills-light {
+    h2 {
+      text-align: center;
+      font-size: 350%;
+      transition: 0.3s ease;
+    }
+  }
 }
 
 @media (max-width: 530px) {
@@ -63,6 +71,14 @@
   .about-me-light h4 {
     font-size: 150%;
     text-align: center;
+  }
+
+  .hard-skills-light {
+    h2 {
+      text-align: center;
+      font-size: 250%;
+      transition: 0.3s ease;
+    }
   }
 }
 
@@ -105,4 +121,11 @@
     text-align: center;
   }
 
+  .hard-skills-light {
+    h2 {
+      text-align: center;
+      font-size: 250%;
+      transition: 0.3s ease;
+    }
+  }
 }
